@@ -6,4 +6,4 @@ Console.WriteLine("Hello, World!");
 Console.Write("Введите свое имя:");
 string name = Console.ReadLine();
 Console.WriteLine($"Привет, {name}!");
-
+Console.WriteLine($"Сегодня: {DateTime.Now.DayOfWeek}");
