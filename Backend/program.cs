@@ -3,5 +3,7 @@ using System.Data;
 using System;
 
 Console.WriteLine("Hello, World!");
-Console.WriteLine("Меня зовут Слюнин Д.А.");
-Console.WriteLine(DateTime.Now);
+Console.Write("Введите свое имя:");
+string name = Console.ReadLine();
+Console.WriteLine($"Привет, {name}!");
+
